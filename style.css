@@ -15,47 +15,26 @@ html{
 }
 
 body{
-   padding: 0%;
+    padding: 0%;
     margin: 0%;
+  
     height: 100%;
-    
-   
+    overflow-x: hidden;
+   background-color: black;
+    color: white;
 }
 
-.video-background{
+.video-bg {
     position: fixed;
     top: 0;
     left: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1; /* Video berada di belakang konten */
+    min-width: 100vw;
+    min-height: 100vh;
+    object-fit: cover; /* Menjaga aspek rasio video */
+    z-index: -1; /* Pastikan video di belakang konten */
 }
 
-/* body{
-    width: 100%;
-    height: 100vh;
-    overflow-x: hidden;
-   background-color: black;
-    color: white; */
-
-
-
-
-header {
-    position: relative;
-    z-index: 1;
-    color: white;
-    text-align: center;
-    padding: 20vh;
-}
-
-position: relative;
-    z-index: 1;
-    color: white;
-    text-align: center;
-    padding: 100%;
-
-/* header{
+header{
     margin-top: 20px;
     position: fixed;
     top: 0;
@@ -68,14 +47,21 @@ position: relative;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-} */
+}
 
-/* position: relative;
-    z-index: 1;
-    color: white;
-    text-align: center;
-    padding: 50px;
-} */
+/* margin-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100; */
+
 
 .logo{
     font-size: 3rem;
@@ -105,12 +91,26 @@ nav a:active{
 }
 
 .home{
-    display: flex;
+    position: relative;
+            z-index: 1;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            object-fit: cover;
+}
+
+display: flex;
     justify-content: center;
     align-items: center;
     gap: 8rem;
-    background-color: ;
-}
+
+position: relative;
+            z-index: 1;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-family: Arial, sans-serif;
 
 .home-img{
     border-radius: 50%;
@@ -146,7 +146,7 @@ nav a:active{
 }
 
 .social-icons a:hover{
-    color: black;
+    color:black ;
     transform: scale(1.3) translateY(-5px);
     background-color: #3498db;
     box-shadow: 0 0 25px #3498db;
@@ -155,6 +155,7 @@ nav a:active{
 .btn{
     display: inline-block;
     padding: 1rem 2.8rem;
+    background-color: ;
     border-radius: 4rem;
     font-size: 1.6rem;
     color: #3498db;
@@ -210,7 +211,7 @@ nav a:active{
         content: "Web Designer";
     }
     61%, 80%{
-        content: "Tiktokers";
+        content: "Youtuber";
     }
     81%, 100%{
         content: "Script Writer";
