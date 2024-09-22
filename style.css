@@ -96,6 +96,7 @@ nav a:active{
             color: white;
             text-align: center;
             padding: 20px;
+            background-color: black;
             font-family: Arial, sans-serif;
             object-fit: cover;
 }
@@ -155,7 +156,7 @@ position: relative;
 .btn{
     display: inline-block;
     padding: 1rem 2.8rem;
-    background-color: ;
+    background-color:black ;
     border-radius: 4rem;
     font-size: 1.6rem;
     color: #3498db;
@@ -191,7 +192,7 @@ position: relative;
 
 .typing-text span::after{
     content: "";
-    background-color:;
+    background-color:black;
     position: absolute;
     width: calc(100% + 8px);
     height: 100%;
