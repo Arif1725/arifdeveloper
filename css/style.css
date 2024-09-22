@@ -16,6 +16,19 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
+
+
+.video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    object-fit: cover; /* Menjaga aspek rasio video */
+    z-index: -1; /* Pastikan video di belakang konten */
+}
+
+
 h1,
 h2,
 h5,
