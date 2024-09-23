@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Codesphere</title>
+  <title>ArifDeveloper</title>
   <!-- <link rel="stylesheet" href="./css/animation-classes.css" /> -->
   <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.ico" />
   <script src="./js/animation.js" defer></script>
@@ -18,30 +18,30 @@
 
 <body>
 
-<!-- Video Latar Belakang -->
-<video autoplay loop class="video-bg">
-  <source src="images/videohd.mp4" type="video/mp4"> <!-- Ganti dengan URL video kamu -->
-  Your browser does not support HTML5 video.
-</video>
+  <!-- Video Latar Belakang -->
+  <video autoplay loop class="video-bg">
+    <source src="images/videohd2.mp4" type="video/mp4"> <!-- Ganti dengan URL video kamu -->
+    Your browser does not support HTML5 video.
+  </video>
 
-<div id="rat"></div>
+  <div id="rat"></div>
 
-<script>
-  // Ripple
-  window.addEventListener("click", ev => {
-    let ripple = document.createElement("div")
-    ripple.classList.add("ripple");
-    ripple.style.top = ev.clientY + "px";
-    ripple.style.left = ev.clientX + "px";
-    document.body.appendChild(ripple);
-    ripple.addEventListener("animationend", () => ripple.remove());
-  });
-</script>
+  <script>
+    // Ripple
+    window.addEventListener("click", ev => {
+      let ripple = document.createElement("div")
+      ripple.classList.add("ripple");
+      ripple.style.top = ev.clientY + "px";
+      ripple.style.left = ev.clientX + "px";
+      document.body.appendChild(ripple);
+      ripple.addEventListener("animationend", () => ripple.remove());
+    });
+  </script>
 
   <div id="hero">
     <h5>Hello I'm</h5>
     <h1>AriefDeveloper</h1>
-    <p>Codesphered01010</p>
+    <p>Codesphere</p>
 
 
 
@@ -49,7 +49,7 @@
 
     <!-- Block, Element, Modifier (BEM) naming convention-->
     <div id="hero__animation">
-      <div id="hero__animation__img"></div>
+      <div id=""></div>
     </div>
   </div>
   <nav id="grid">
@@ -60,7 +60,7 @@
 
           <div class="cards__content">
             <article>
-              <img src="./assets/icons/th.jpeg" alt="Education icon" class="icon" />
+              <img src="./assets1/icons/th.jpeg" alt="Education icon" class="icon" />
               <h2>Resume</h2>
               <a href="#" download style="text-decoration: none;">
                 <p class="">Download</p>
@@ -70,21 +70,21 @@
 
           <div class="cards__content">
             <article>
-              <img src="./assets/icons/experience.png" alt="Experience icon" class="icon" />
+              <img src="./assets1/icons/experience.png" alt="Experience icon" class="icon" />
               <h2>Experience</h2>
               <p>
                 I've been managing my own community for almost a year
               </p>
             </article>
-          
+
           </div>
           <div class="cards__content">
             <article>
-              <img src="./assets/icons/education.png" alt="Education icon" class="icon" />
+              <img src="./assets1/icons/education.png" alt="Education icon" class="icon" />
               <h2>Education</h2>
               <p>I'm currently enrolled in the "Computer Network Engineering" and "Informatics" Expertise Programs.</p>
             </article>
-            
+
           </div>
 
         </div>
@@ -96,23 +96,23 @@
         <div class="cards skillset">
           <article class="skillset__skill">
 
-       <h2>Junior Front-End</h2>
+            <h2>Junior Front-End</h2>
             <div>
-              <img src="./assets/icons/checkmark.png" alt="Checkmark icon" class="icon" />
+              <img src="./assets1/icons/checkmark.png" alt="Checkmark icon" class="icon" />
               <div>
                 <h2>HTML,CSS</h2>
               </div>
             </div>
 
             <div>
-              <img src="./assets/icons/checkmark.png" alt="Checkmark icon" class="icon" />
+              <img src="./assets1/icons/checkmark.png" alt="Checkmark icon" class="icon" />
               <div>
                 <h2>Javascript</h2>
               </div>
             </div>
 
             <div>
-              <img src="./assets/icons/checkmark.png" alt="Checkmark icon" class="icon" />
+              <img src="./assets1/icons/checkmark.png" alt="Checkmark icon" class="icon" />
               <div>
                 <h2>React/Vue.js</h2>
               </div>
@@ -127,21 +127,21 @@
             <h2>Junior Back-end</h2>
 
             <div>
-              <img src="./assets/icons/checkmark.png" alt="Checkmark icon" class="icon" />
+              <img src="./assets1/icons/checkmark.png" alt="Checkmark icon" class="icon" />
               <div>
                 <h2>Node.js/Express</h2>
               </div>
             </div>
 
             <div>
-              <img src="./assets/icons/checkmark.png" alt="Checkmark icon" class="icon" />
+              <img src="./assets1/icons/checkmark.png" alt="Checkmark icon" class="icon" />
               <div>
                 <h2>MySQL/MongoDB</h2>
               </div>
             </div>
 
             <div>
-              <img src="./assets/icons/checkmark.png" alt="Checkmark icon" class="icon" />
+              <img src="./assets1/icons/checkmark.png" alt="Checkmark icon" class="icon" />
               <div>
                 <h2>JWT/OAuth</h2>
               </div>
@@ -160,8 +160,10 @@
         <div id="grid__bl__content__projects">
 
           <div class="project p-1">
-            <img class="project__img project-1" src="https://raw.githubusercontent.com/HostingerCodesphere/Folio/main/assets/portfolio-project/LinkTree.jpg" alt="" />
-            <h2 class="project__title">Link-Tree Codesphere</h2>
+            <img class="project__img project-1"
+              src="https://raw.githubusercontent.com/HostingerCodesphere/Folio/main/assets/portfolio-project/LinkTree.jpg"
+              alt="" />
+            <h2 class="project__title">Link-Tree kayrief</h2>
             <button class="btn" onclick="window.location.href='https://linktr.ee/kayrief'">
               Demo
             </button>
@@ -177,13 +179,15 @@
 
 
           <div class="project p-2">
-            <img class="project__img project-2" src="https://raw.githubusercontent.com/HostingerCodesphere/Folio/main/assets/portfolio-project/Alarm.jpg" alt="" />
+            <img class="project__img project-2"
+              src="https://raw.githubusercontent.com/HostingerCodesphere/Folio/main/assets/portfolio-project/Alarm.jpg"
+              alt="" />
             <h2 class="project__title"></h2>
             <h2 class="project__title">Alarm App</h2>
             <button class="btn" onclick="window.location.href='https://dzareldeveloper.github.io/Alarm/'">
               Demo
             </button>
-            <button class="btn" onclick="window.location.href='https://github.com/DzarelDeveloper/Alarm'">
+            <button class="btn" onclick="window.location.href=''">
               GitHub
             </button>
           </div>
@@ -192,35 +196,41 @@
 
 
           <div class="project p-3">
-            <img class="project__img project-3" src="https://raw.githubusercontent.com/HostingerCodesphere/Folio/main/assets/portfolio-project/Portofolio.jpg" alt="" />
-            <h2 class="project__title">Portofolio Responsive</h2>
+            <img class="project__img project-3"
+              src="https://raw.githubusercontent.com/HostingerCodesphere/Folio/main/assets/portfolio-project/Portofolio.jpg"
+              alt="" />
+            <h2 class="project__title">blog saya</h2>
             <button class="btn" onclick="window.location.href='portofolio.html'">
-               Demo
+              Demo
             </button>
             <button class="btn" onclick="window.location.href='https://github.com/Arif1725/Portofolio'">
               GitHub
             </button>
           </div>
-          
- 
+
+
 
           <div class="project p-3">
-            <img class="project__img project-3" src="https://raw.githubusercontent.com/HostingerCodesphere/Folio/main/assets/portfolio-project/WebClass.jpg" alt="" />
-            <h2 class="project__title">Website Memory ( IX-E )</h2>
+            <img class="project__img project-3"
+              src="https://raw.githubusercontent.com/HostingerCodesphere/Folio/main/assets/portfolio-project/WebClass.jpg"
+              alt="" />
+            <h2 class="project__title">Website Memory</h2>
 
             <button class="btn" onclick="window.location.href='webold.html'">
               Demo
             </button>
-            <button class="btn" onclick="window.location.href='https://github.com/DzarelDeveloper/Exposse.nine'">
+            <button class="btn" onclick="window.location.href=''">
               GitHub
             </button>
           </div>
 
-<!-- https://github.com/Arif1725/Portofolio -->
- <!-- https://github.com/DzarelDeveloper/Exposse.nine -->
+          <!-- https://github.com/Arif1725/Portofolio -->
+          <!-- https://github.com/DzarelDeveloper/Exposse.nine -->
 
           <div class="project p-3">
-            <img class="project__img project-3" src="https://raw.githubusercontent.com/HostingerCodesphere/Folio/main/assets/portfolio-project/Alarm.jpg" alt="" />
+            <img class="project__img project-3"
+              src="https://raw.githubusercontent.com/HostingerCodesphere/Folio/main/assets/portfolio-project/Alarm.jpg"
+              alt="" />
             <h2 class="project__title">Digital Clock</h2>
             <a href="indexportofolio.html">Demo</a>
           </div>
